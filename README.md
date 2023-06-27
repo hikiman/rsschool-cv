@@ -1,2 +1,3 @@
 # rsschool-cv
-[rsschool-cv](https://hikiman.github.io/rsschool-cv/cv)
+[Markdown ver.](https://hikiman.github.io/rsschool-cv/cv)
+[HTML + CSS ver.](https://hikiman.github.io/rsschool-cv/)
