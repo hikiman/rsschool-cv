@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(100, 32, 228);
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    border: 1px dashed #fff;
+}
+
+.nav-link {
+    padding: 0 50px;
+    line-height: 50px;
+    text-decoration:none;
+    color: #fff;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.section {
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    border: 15px solid rgb(100, 32, 228);
+}
+
+.section-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+pre {
+    margin: 0;
+}
+
+.section-languages {
+    width:100%;
+}
+
+.imgBox img {
+    width: 175px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.section-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    text-align: left;
+    margin: 5px;
+}
+
+.section-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.headings .section-title, .section-subtitle {
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    justify-items: center;
+    width:100%;
+    background-color: rgb(100, 32, 228);
+}
+
+.rss {
+    width: 100px;
+    height: 50px;
+    background-image: url(assets/icon/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.github {
+    width: 100px;
+    height: 50px;
+    background-image: url(assets/icon/github-mark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
